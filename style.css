@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    mask-repeat: no-repeat;
+}
+.main{
+    background:url(IMG_20191212_172704.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    
+
+    
+
+}   
+.navbar-nav li{
+    margin:24px ;
+      
+}
+.a1{
+    font-size: 20px;
+    color: rgb(92, 90, 90) !important;
+}
+.intro{
+    padding-top: 11rem;
+    font-family: 'Baloo Tammudu 2', cursive;   
+}
+.shadow{
+    text-shadow:2px 2px #7da2c0;
+}
+.intro h1{
+    font-size: 100px;
+}
+.intro hr{
+    border-top: 2px solid #ffffff;
+    width: 10%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.name{
+    height: 110px;
+}
+.padding h2{
+    margin: .5rem;
+}
+.text-center p{
+    font-size: 25px;
+    font-family:cursive
+}
+.profile-pic{
+    width: 5%;
+    height: auto;
+    
+}
+section hr{
+    margin-top: 2.5rem;
+    width: 70%;
+    border-top: 2px solid #747171;
+}
+
+.social{
+    margin-bottom: .5rem;
+}
+.social a{
+    font-size: 3rem;
+    padding: 2rem;
+}
+.fa-twitter{
+    color: rgb(41, 165, 247);
+  }
+  
+.fa-instagram{
+      color: #4798bd;
+  }
+  
+  .fa-facebook:hover,
+  .fa-twitter:hover,
+  .fa-google-plus-g:hover,
+  .fa-instagram:hover,
+  .fa-youtube:hover{
+        color: #d5d5d5;
+  }
+
+   
+
+
+/*media querry*/
+@media(max-width: 992px){
+    .social a{
+        font-size: 2rem;
+        padding: 1.7rem;
+    }
+      
+}
+@media(max-width: 768px){
+    .navbar-nav li{
+        margin:2px ;    
+    }
+    .social a{
+        padding: 1.3rem;
+        font-size:2rem;
+    }
+    .intro hr{
+        width: 25%;
+    }
+
+   
+}
+@media(max-width: 576px){
+    .a1{
+        font-size: 15px;
+    }
+    .social a{
+        font-size:2rem ;
+        padding: 1rem;
+    }
+    .intro hr{
+        width: 35%;
+    }
+  
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+    
